@@ -1,0 +1,44 @@
+# CMake build directory
+build/
+cmake-build-*/
+
+# JUCE Framework (downloaded by CMake)
+JUCE/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln.docstates
+
+# Generated files
+BinaryData.h
+BinaryData.cpp
+
+# Plugin build artifacts
+*_artefacts/
+
+# IDE specific files
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# JUCE specific
+JuceLibraryCode/
+Builds/ (if using Projucer)
+
+# Backup files
+*.bak
+*.orig
+
+builds/
